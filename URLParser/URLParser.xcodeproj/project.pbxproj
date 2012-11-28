@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6FC4D741666552900DEA66E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC4D731666552900DEA66E /* Cocoa.framework */; };
+		C6FC4D7E1666552900DEA66E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6FC4D7C1666552900DEA66E /* InfoPlist.strings */; };
+		C6FC4D801666552900DEA66E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC4D7F1666552900DEA66E /* main.m */; };
+		C6FC4D841666552900DEA66E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6FC4D821666552900DEA66E /* Credits.rtf */; };
+		C6FC4D871666552900DEA66E /* URLParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC4D861666552900DEA66E /* URLParserAppDelegate.m */; };
+		C6FC4D8A1666552900DEA66E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6FC4D881666552900DEA66E /* MainMenu.xib */; };
+		C6FC4D921666552900DEA66E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC4D911666552900DEA66E /* SenTestingKit.framework */; };
+		C6FC4D931666552900DEA66E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC4D731666552900DEA66E /* Cocoa.framework */; };
+		C6FC4D9B1666552900DEA66E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6FC4D991666552900DEA66E /* InfoPlist.strings */; };
+		C6FC4D9E1666552900DEA66E /* URLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC4D9D1666552900DEA66E /* URLParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6FC4D941666552900DEA66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6FC4D661666552900DEA66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6FC4D6E1666552900DEA66E;
+			remoteInfo = URLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6FC4D6F1666552900DEA66E /* URLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FC4D731666552900DEA66E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C6FC4D761666552900DEA66E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C6FC4D771666552900DEA66E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6FC4D781666552900DEA66E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6FC4D7B1666552900DEA66E /* URLParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLParser-Info.plist"; sourceTree = "<group>"; };
+		C6FC4D7D1666552900DEA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6FC4D7F1666552900DEA66E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6FC4D811666552900DEA66E /* URLParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLParser-Prefix.pch"; sourceTree = "<group>"; };
+		C6FC4D831666552900DEA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C6FC4D851666552900DEA66E /* URLParserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLParserAppDelegate.h; sourceTree = "<group>"; };
+		C6FC4D861666552900DEA66E /* URLParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLParserAppDelegate.m; sourceTree = "<group>"; };
+		C6FC4D891666552900DEA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6FC4D901666552900DEA66E /* URLParserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLParserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FC4D911666552900DEA66E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6FC4D981666552900DEA66E /* URLParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLParserTests-Info.plist"; sourceTree = "<group>"; };
+		C6FC4D9A1666552900DEA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6FC4D9C1666552900DEA66E /* URLParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLParserTests.h; sourceTree = "<group>"; };
+		C6FC4D9D1666552900DEA66E /* URLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6FC4D6C1666552900DEA66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D741666552900DEA66E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FC4D8C1666552900DEA66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D921666552900DEA66E /* SenTestingKit.framework in Frameworks */,
+				C6FC4D931666552900DEA66E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6FC4D641666552900DEA66E = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D791666552900DEA66E /* URLParser */,
+				C6FC4D961666552900DEA66E /* URLParserTests */,
+				C6FC4D721666552900DEA66E /* Frameworks */,
+				C6FC4D701666552900DEA66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6FC4D701666552900DEA66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D6F1666552900DEA66E /* URLParser.app */,
+				C6FC4D901666552900DEA66E /* URLParserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6FC4D721666552900DEA66E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D731666552900DEA66E /* Cocoa.framework */,
+				C6FC4D911666552900DEA66E /* SenTestingKit.framework */,
+				C6FC4D751666552900DEA66E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6FC4D751666552900DEA66E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D761666552900DEA66E /* AppKit.framework */,
+				C6FC4D771666552900DEA66E /* CoreData.framework */,
+				C6FC4D781666552900DEA66E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C6FC4D791666552900DEA66E /* URLParser */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D851666552900DEA66E /* URLParserAppDelegate.h */,
+				C6FC4D861666552900DEA66E /* URLParserAppDelegate.m */,
+				C6FC4D881666552900DEA66E /* MainMenu.xib */,
+				C6FC4D7A1666552900DEA66E /* Supporting Files */,
+			);
+			path = URLParser;
+			sourceTree = "<group>";
+		};
+		C6FC4D7A1666552900DEA66E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D7B1666552900DEA66E /* URLParser-Info.plist */,
+				C6FC4D7C1666552900DEA66E /* InfoPlist.strings */,
+				C6FC4D7F1666552900DEA66E /* main.m */,
+				C6FC4D811666552900DEA66E /* URLParser-Prefix.pch */,
+				C6FC4D821666552900DEA66E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6FC4D961666552900DEA66E /* URLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D9C1666552900DEA66E /* URLParserTests.h */,
+				C6FC4D9D1666552900DEA66E /* URLParserTests.m */,
+				C6FC4D971666552900DEA66E /* Supporting Files */,
+			);
+			path = URLParserTests;
+			sourceTree = "<group>";
+		};
+		C6FC4D971666552900DEA66E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC4D981666552900DEA66E /* URLParserTests-Info.plist */,
+				C6FC4D991666552900DEA66E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6FC4D6E1666552900DEA66E /* URLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FC4DA11666552900DEA66E /* Build configuration list for PBXNativeTarget "URLParser" */;
+			buildPhases = (
+				C6FC4D6B1666552900DEA66E /* Sources */,
+				C6FC4D6C1666552900DEA66E /* Frameworks */,
+				C6FC4D6D1666552900DEA66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLParser;
+			productName = URLParser;
+			productReference = C6FC4D6F1666552900DEA66E /* URLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6FC4D8F1666552900DEA66E /* URLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FC4DA41666552900DEA66E /* Build configuration list for PBXNativeTarget "URLParserTests" */;
+			buildPhases = (
+				C6FC4D8B1666552900DEA66E /* Sources */,
+				C6FC4D8C1666552900DEA66E /* Frameworks */,
+				C6FC4D8D1666552900DEA66E /* Resources */,
+				C6FC4D8E1666552900DEA66E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FC4D951666552900DEA66E /* PBXTargetDependency */,
+			);
+			name = URLParserTests;
+			productName = URLParserTests;
+			productReference = C6FC4D901666552900DEA66E /* URLParserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6FC4D661666552900DEA66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = URLParser;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luo Yong";
+			};
+			buildConfigurationList = C6FC4D691666552900DEA66E /* Build configuration list for PBXProject "URLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6FC4D641666552900DEA66E;
+			productRefGroup = C6FC4D701666552900DEA66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6FC4D6E1666552900DEA66E /* URLParser */,
+				C6FC4D8F1666552900DEA66E /* URLParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6FC4D6D1666552900DEA66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D7E1666552900DEA66E /* InfoPlist.strings in Resources */,
+				C6FC4D841666552900DEA66E /* Credits.rtf in Resources */,
+				C6FC4D8A1666552900DEA66E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FC4D8D1666552900DEA66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D9B1666552900DEA66E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6FC4D8E1666552900DEA66E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6FC4D6B1666552900DEA66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D801666552900DEA66E /* main.m in Sources */,
+				C6FC4D871666552900DEA66E /* URLParserAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FC4D8B1666552900DEA66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC4D9E1666552900DEA66E /* URLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6FC4D951666552900DEA66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6FC4D6E1666552900DEA66E /* URLParser */;
+			targetProxy = C6FC4D941666552900DEA66E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6FC4D7C1666552900DEA66E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FC4D7D1666552900DEA66E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6FC4D821666552900DEA66E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FC4D831666552900DEA66E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C6FC4D881666552900DEA66E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FC4D891666552900DEA66E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C6FC4D991666552900DEA66E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6FC4D9A1666552900DEA66E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6FC4D9F1666552900DEA66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6FC4DA01666552900DEA66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6FC4DA21666552900DEA66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLParser/URLParser-Prefix.pch";
+				INFOPLIST_FILE = "URLParser/URLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6FC4DA31666552900DEA66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLParser/URLParser-Prefix.pch";
+				INFOPLIST_FILE = "URLParser/URLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6FC4DA51666552900DEA66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLParser.app/Contents/MacOS/URLParser";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLParser/URLParser-Prefix.pch";
+				INFOPLIST_FILE = "URLParserTests/URLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C6FC4DA61666552900DEA66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLParser.app/Contents/MacOS/URLParser";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLParser/URLParser-Prefix.pch";
+				INFOPLIST_FILE = "URLParserTests/URLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6FC4D691666552900DEA66E /* Build configuration list for PBXProject "URLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FC4D9F1666552900DEA66E /* Debug */,
+				C6FC4DA01666552900DEA66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FC4DA11666552900DEA66E /* Build configuration list for PBXNativeTarget "URLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FC4DA21666552900DEA66E /* Debug */,
+				C6FC4DA31666552900DEA66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6FC4DA41666552900DEA66E /* Build configuration list for PBXNativeTarget "URLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FC4DA51666552900DEA66E /* Debug */,
+				C6FC4DA61666552900DEA66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6FC4D661666552900DEA66E /* Project object */;
+}
